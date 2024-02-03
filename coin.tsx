@@ -107,6 +107,7 @@ export const coins: Coin[] = [
     bridgeContract: "E8E6GvyCpbGu7YSFxfhTXGx6SW4VhzVmxWh3gbrgXZNd",
     tokenContract: "HbxiDXQxBKMNJqDsTavQE7LVwrTR36wjV2EaYEqUw6qH",
     isToken22: true,
+    // Ensure a marketplace link is last in the social media list
     socialMediaLinks: [
       {
         name: "X",
@@ -145,7 +146,7 @@ export const coins: Coin[] = [
     bridgeContract: "2bSESUzjyCcG4Kbozf1ExTBBGx4rtqfGdnkSNZyfvD7Y",
     tokenContract: "5n3jtLLFETpTkqXUZQHHgiGs6zaNZP32GSWrHb2RzpbC",
     isToken22: false,
-    // Ensure tensor link is last in the social media list
+    // Ensure a marketplace link is last in the social media list
     socialMediaLinks: [
       {
         name: "Tensor",
