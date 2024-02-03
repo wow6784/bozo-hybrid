@@ -53,6 +53,7 @@ Please ensure your submission includes the following information:
 | **GeckoTerminal**            | Your GeckoTerminal URL      |
 | **Magic Eden**               | Your Magic Eden URL         |
 | **Tensor**                   | Your Tensor URL             |
+| **Solsniper**                | Your Solsniper URL          |
 
 Ensure all the provided information is accurate and complete to facilitate a smooth process.
 
