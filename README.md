@@ -45,6 +45,7 @@ Please ensure your submission includes the following information:
 | **Bridge Contract**          | Your Bridge Contract Address|
 | **Token Contract**           | Your Token Contract Address |
 | **Token22**                  | True/False                  |
+| **Tax to Token (BPS)**       | Enter 0 if no bps tax       |
 | **Website**                  | Your Website URL            |
 | **Twitter**                  | Your Twitter URL            |
 | **Discord**                  | Your Discord URL            |
