@@ -23,6 +23,7 @@ export interface Coin {
   tokenToNftSwapAmount: number
   decimals: number
   isToken22: boolean
+  taxBPS: number
 }
 
 // Import icon components
@@ -53,6 +54,7 @@ export const coins: Coin[] = [
     bridgeContract: "EXqYZtA1d4Nx2WjYuQ1GvdeujFM8VbvmjfdmJBJj7guc",
     tokenContract: "EJPtJEDogxzDbvM8qvAsqYbLmPj5n1vQeqoAzj9Yfv3q",
     isToken22: false,
+    taxBPS: 0,
     // Ensure tensor link is last in the social media list
     socialMediaLinks: [
       {
@@ -107,6 +109,7 @@ export const coins: Coin[] = [
     bridgeContract: "E8E6GvyCpbGu7YSFxfhTXGx6SW4VhzVmxWh3gbrgXZNd",
     tokenContract: "HbxiDXQxBKMNJqDsTavQE7LVwrTR36wjV2EaYEqUw6qH",
     isToken22: true,
+    taxBPS: 0,
     // Ensure a marketplace link is last in the social media list
     socialMediaLinks: [
       {
@@ -133,6 +136,74 @@ export const coins: Coin[] = [
     ],
   },
   {
+    coinLogo: "https://bafybeieprtdo3xgvk2ezdlqd47lhcnwdqneoig7jiiiuodoy36jmu6jhte.ipfs.dweb.link/",
+    tokenName: "VICE",
+    tokenTicker: "$VICE",
+    tokenAmount: "10000",
+    tick: "VICE",
+    decimals: 9,
+    nftAmount: "1",
+    nftToTokenSwapAmount: 1,
+    tokenToNftSwapAmount: 10000,
+    tokenDescription: "First deflationary SPL22 with Token Extension Transfer Tax. NFTxTOKEN Hybrid 💸🦩🌴🐬",
+    bridgeContract: "CiMbtrietnssxXHqiFmZrETxFuXXJhofmCyQqcBT3dxp",
+    tokenContract: "AWeL8nCXxJm3GZkEVRqxeeT5KWT2KwDa1shgQFeBogkC",
+    isToken22: true,
+    taxBPS: 200,
+    socialMediaLinks: [
+      {
+        name: "X",
+        url: "https://twitter.com/ViceSpl20",
+        icon: <TwitterIcon />,
+      },
+      {
+        name: "Telegram",
+        url: "https://t.me/+6mdLFerDKYUyY2Vh",
+        icon: <TelegramIcon />,
+      },
+      {
+        name: "Solsniper",
+        url: "https://www.sniper.xyz/collection/vice",
+        icon: <SolsniperIcon />,
+      },
+      // Add other social media links here...
+    ],
+  },
+  {
+    coinLogo: "https://bafkreibpa7tr3ytau2zn6yawj2a5do2mzhdebeim6qkbw5rc2s3hmfj6kq.ipfs.nftstorage.link/",
+    tokenName: "j00ce",
+    tokenTicker: "$j00ce",
+    tokenAmount: "75",
+    tick: "j00ce",
+    decimals: 9,
+    nftAmount: "1",
+    nftToTokenSwapAmount: 1,
+    tokenToNftSwapAmount: 75,
+    tokenDescription: "got j00ce? 🧃",
+    bridgeContract: "C89eJaCiHX7CCNLzuVBUwRSnqdnEoD3NSzRzHXdqaFSt",
+    tokenContract: "Bjc5RNFVRyn4zkBmPuZBEJJSeYGLj9GuD5X2qqi2oDCa",
+    isToken22: false,
+    taxBPS: 0,
+    socialMediaLinks: [
+      {
+        name: "X",
+        url: "https://twitter.com/j00ce_inc",
+        icon: <TwitterIcon />,
+      },
+      {
+        name: "Discord",
+        url: "https://discord.gg/pYCc89wdT6",
+        icon: <DiscordIcon />,
+      },
+      {
+        name: "Magiceden",
+        url: "https://magiceden.io/marketplace/j00ce",
+        icon: <MagicEdenIcon />,
+      },
+      // Add other social media links here...
+    ],
+  },
+  {
     coinLogo: "https://nftstorage.link/ipfs/bafkreieizaoip6f5yvjatbwydzlyaztrata2baq4hroicm6bblkdsx2lom",
     tokenName: "TESTSpl20",
     tokenTicker: "$TEST",
@@ -146,6 +217,7 @@ export const coins: Coin[] = [
     bridgeContract: "2bSESUzjyCcG4Kbozf1ExTBBGx4rtqfGdnkSNZyfvD7Y",
     tokenContract: "5n3jtLLFETpTkqXUZQHHgiGs6zaNZP32GSWrHb2RzpbC",
     isToken22: false,
+    taxBPS: 0,
     // Ensure a marketplace link is last in the social media list
     socialMediaLinks: [
       {
