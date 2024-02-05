@@ -207,7 +207,7 @@ export const coins: Coin[] = [
     coinLogo: "https://bafybeicc3w2bi36zxiknqnvxuzp3spcw2dwboromit7g3we2ugxxjxlfve.ipfs.dweb.link/",
     tokenName: "GEM HYBRID",
     tokenTicker: "$GEM",
-    tokenAmount: "21000000",
+    tokenAmount: "21000",
     tick: "GEM",
     decimals: 9,
     nftAmount: "1",
