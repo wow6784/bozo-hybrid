@@ -204,6 +204,40 @@ export const coins: Coin[] = [
     ],
   },
   {
+    coinLogo: "https://bafybeicc3w2bi36zxiknqnvxuzp3spcw2dwboromit7g3we2ugxxjxlfve.ipfs.dweb.link/",
+    tokenName: "GEM HYBRID",
+    tokenTicker: "$GEM",
+    tokenAmount: "21000000",
+    tick: "GEM",
+    decimals: 9,
+    nftAmount: "1",
+    nftToTokenSwapAmount: 1,
+    tokenToNftSwapAmount: 20000,
+    tokenDescription: "GEM is First 1K deflationary SPL22 with Token Extension Transfer Tax NFTxTOKEN",
+    bridgeContract: "BreAaEMQ8NscYRgZTGSEvcuxpYUDqP7a15CvBP3rg2BQ",
+    tokenContract: "BHnyR5iCR8kBZhF97EJ6mi8K8JCFDNg19j5zaU35RLoJ",
+    isToken22: true,
+    taxBPS: 200,
+    socialMediaLinks: [
+      {
+        name: "X",
+        url: "https://twitter.com/GEMdeflationSOL",
+        icon: <TwitterIcon />,
+      },
+      {
+        name: "Telegram",
+        url: "https://t.me/GEM_HYBRID",
+        icon: <TelegramIcon />,
+      },
+      {
+        name: "Solsniper",
+        url: "https://www.sniper.xyz/collection/gem-t22",
+        icon: <SolsniperIcon />,
+      },
+      // Add other social media links here...
+    ],
+  },
+  {
     coinLogo: "https://nftstorage.link/ipfs/bafkreieizaoip6f5yvjatbwydzlyaztrata2baq4hroicm6bblkdsx2lom",
     tokenName: "TESTSpl20",
     tokenTicker: "$TEST",
