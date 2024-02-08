@@ -24,6 +24,7 @@ export interface Coin {
   decimals: number
   isToken22: boolean
   taxBPS: number
+  isSplit?: boolean
 }
 
 // Import icon components
@@ -233,6 +234,101 @@ export const coins: Coin[] = [
         name: "Solsniper",
         url: "https://www.sniper.xyz/collection/gem-t22",
         icon: <SolsniperIcon />,
+      },
+      // Add other social media links here...
+    ],
+  },
+  {
+    coinLogo: "https://bafybeif6spjgzd2v5stgfvkm5vu4q57kf3is77u3no24gennnmcrrycfke.ipfs.dweb.link/",
+    tokenName: "switch",
+    tokenTicker: "$switch",
+    tokenAmount: "1,000",
+    tick: "switch",
+    decimals: 9,
+    nftAmount: "1",
+    nftToTokenSwapAmount: 1,
+    tokenToNftSwapAmount: 1000*1.005,
+    tokenDescription: "",
+    bridgeContract: "Au8XfcFjbHqBMiHU7FmJJHJjS3zANxhWxRoHFfarVqSE",
+    tokenContract: "DHL5KxPUxSK5svFn9etpp8D1EHBq2vY5tLq8MYL1Zogr",
+    isToken22: true,
+    taxBPS: 50,
+    socialMediaLinks: [
+      {
+        name: "Solsniper",
+        url: "https://www.sniper.xyz/collection/switch",
+        icon: <SolsniperIcon />,
+      },
+      // Add other social media links here...
+    ],
+  },
+  {
+    coinLogo: "https://bafybeiegie2fiujpim4bda36rbhex5defntsx34jc3p7wzkfe3bx2gwcfi.ipfs.nftstorage.link/",
+    tokenName: "SPLS",
+    tokenTicker: "$SPLS",
+    tokenAmount: "1,000",
+    tick: "spls",
+    decimals: 9,
+    nftAmount: "1",
+    nftToTokenSwapAmount: 1,
+    tokenToNftSwapAmount: 1000,
+    tokenDescription: "SPLS is SPL22 first 21K NFTxTOKEN HYBRID.",
+    bridgeContract: "971kLxBnZrZTsHrWvMYBFUCmargxbv9kPWPy5UETRBdD",
+    tokenContract: "HbzbxCvrKTwppnSiFA73zNNjNwm764rhsdcw4spXpAvy",
+    isToken22: true,
+    taxBPS: 0,
+    isSplit: true,
+    // Ensure a marketplace link is last in the social media list
+    socialMediaLinks: [
+      {
+        name: "X",
+        url: "https://twitter.com/Paurojay_Spls",
+        icon: <TwitterIcon />,
+      },
+      {
+        name: "Discord",
+        url: "https://discord.com/invite/c2pkuZ3DUD",
+        icon: <DiscordIcon />,
+      },
+      {
+        name: "Solsniper",
+        url: "https://www.sniper.xyz/collection/spls",
+        icon: <SolsniperIcon />,
+      },
+      // Add other social media links here...
+    ],
+  },
+  {
+    coinLogo: "https://i.ibb.co/61RVQqL/Pill.png",
+    tokenName: "LUDES",
+    tokenTicker: "$LUDES",
+    tokenAmount: "10,000",
+    tick: "ludes",
+    decimals: 9,
+    nftAmount: "1",
+    nftToTokenSwapAmount: 1,
+    tokenToNftSwapAmount: 10000,
+    tokenDescription: "But Of All The Drugs Under God's Blue Heaven, Here Is One That Is My Absolute Favorite. Deflationary SPL22 NFT x Token Hybrid",
+    bridgeContract: "GH2qX5FUD8d1hBfXPtp9pV2uVwAdHgHAyjTuHbeXADZg",
+    tokenContract: "Bcayk4y8YB4xRamFZesunDQ13RSDaitxR4QjF1h6aVSN",
+    isToken22: true,
+    taxBPS: 200,
+    // Ensure a marketplace link is last in the social media list
+    socialMediaLinks: [
+      {
+        name: "X",
+        url: "https://x.com/ludesspl20?s=21",
+        icon: <TwitterIcon />,
+      },
+      {
+        name: "Telegram",
+        url: "https://t.me/+c5-UFUQERGYyNmNh",
+        icon: <TelegramIcon />,
+      },
+      {
+        name: "Tensor",
+        url: "https://www.tensor.trade/trade/ludes",
+        icon: <TensorIcon />,
       },
       // Add other social media links here...
     ],
