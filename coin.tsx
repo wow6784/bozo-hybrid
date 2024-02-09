@@ -358,5 +358,43 @@ export const coins: Coin[] = [
       // Add other social media links here...
     ],
   },
-  // Add other coins
-]
+{
+    coinLogo: "https://bafybeid2o3jo2meddslrounzkzqavxeravrk4fhi4m2t26kgks7mx737ai.ipfs.dweb.link/",
+    tokenName: "DE",
+    tokenTicker: "$DE",
+    tokenAmount: "21,000",
+    tick: "DE",
+    decimals: 9,
+    nftAmount: "1",
+    nftToTokenSwapAmount: 1,
+    tokenToNftSwapAmount: 1000,
+    tokenDescription: "$DE for deflationary NFTxToken 22 standard.",
+    bridgeContract: "5YahALH3cE4vsV4LGf4rN4EZQDMi2PnZi6y5hJMvpGYS",
+    tokenContract: "5BHmx7fSPGTFQ9bVeCdK2BwWuZvDTxsMVZw3v4oxv9KE",
+    isToken22: true,
+    taxBPS: 65,
+    // Ensure a marketplace link is last in the social media list
+    socialMediaLinks: [
+      {
+        name: "X",
+        url: "https://twitter.com/DEflationarySOL",
+        icon: <TwitterIcon />,
+      },
+      {
+        name: "Telegram",
+        url: "https://t.me/DEflationarySOL",
+        icon: <TelegramIcon />,
+      },
+      {
+        name: "Tensor",
+        url: "https://www.tensor.trade/trade/de22",
+        icon: <TensorIcon />,
+      },
+      {
+        name: "Solsniper",
+        url: "https://www.sniper.xyz/collection/de2",
+        icon: <SolsniperIcon />,
+      },
+      // Add other social media links here...
+    ],
+  },
