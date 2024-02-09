@@ -25,6 +25,10 @@ export interface Coin {
   isToken22: boolean
   taxBPS: number
   isSplit?: boolean
+  creatorFee?: number
+  creatorFeeTreasury?: string
+  nftSupply?: number
+  nftMinted?: number
 }
 
 // Import icon components
