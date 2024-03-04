@@ -509,3 +509,43 @@ export const coins: Coin[] = [
  // },
   // Add other coins
 ]
+},
+  {
+    coinLogo: "https://nftstorage.link/ipfs/bafybeicowh37d5347tkezwqfhxkdig4fhh2hjzinzyw6gckz47wwcih2fa",
+    tokenName: "WOWspaceWolf",
+    tokenTicker: "$WOWolf",
+    tokenAmount: "88000000",
+    tick: "WOWolf",
+    decimals: 9,
+    nftAmount: "400",
+    nftToTokenSwapAmount: 1,
+    tokenToNftSwapAmount: 22000,
+    tokenDescription: "WOWspaceWolf is a HYBRID DEFI fair mint SPL22 meme token going to the stars! join us on our journy!",
+    bridgeContract: "3YLdgmEwx7daXgfJcSAxtdLUw3SmkoxNbEnaRoSyJZcw",
+    tokenContract: "9Z96DijGGyc7jMQtM8hAXj1kB3kWvQUXDX5gD1QNiqRj",
+    isToken22: true,
+    taxBPS: 0,
+    // Ensure a marketplace link is last in the social media list
+    socialMediaLinks: [
+      {
+        name: "X",
+        url: "https://twitter.com/WOWspaceWolf",
+        icon: <TwitterIcon />,
+      },
+      {
+        name: "Discord",
+        url: "https://discord.gg/g6phqfUd",
+        icon: <DiscordIcon />,
+      },
+      {
+        name: "Telegram",
+        url: "https://t.me/WOWspaceWolf",
+        icon: <TelegramIcon />,
+      },
+      {
+        name: "Solsniper",
+        url: "https://www.sniper.xyz/collection/WOWspaceWolf",
+        icon: <SolsniperIcon />,
+      },
+      // Add other social media links here...
+    ],
